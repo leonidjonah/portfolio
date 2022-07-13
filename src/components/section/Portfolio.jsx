@@ -21,9 +21,17 @@ function Portfolio() {
         <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
           <div className="col-lg-4 col-md-6 portfolio-item filter-app">
             <div className="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" className="img-fluid" alt=""/>
+              <img src="imageProjet/cgm.png" className="img-fluid" alt=""/>
               <div className="portfolio-links">
-                <Link to="/detailleGca" title="Gestion des etudiants"><i className="bx bx-plus"></i></Link>
+                <Link to="/detailleGca" title="Gestion du cabinet medical (PSI)"><i className="bx bx-plus"></i></Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div className="portfolio-wrap">
+              <img src="imageProjet/classPrestige.png" className="img-fluid" alt=""/>
+              <div className="portfolio-links">
+                <Link to="/detailleGu" title="Gestion des etudiants"><i className="bx bx-plus"></i></Link>
               </div>
             </div>
           </div>

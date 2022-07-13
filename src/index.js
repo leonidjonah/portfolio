@@ -6,12 +6,14 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Pdc from "./components/pdc/Pdc";
 import DetailleIndexGca from "./components/detailleProject/DetailleGca";
+import DetailleGu from "./components/detailleProject/DetailleGu";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
         <Route path="detailleGca" element={<DetailleIndexGca />} />
+        <Route path="detailleGu" element={<DetailleGu />} />
         <Route index element={<Pdc />} />
       </Route>
     </Routes>
