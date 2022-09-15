@@ -7,6 +7,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Pdc from "./components/pdc/Pdc";
 import DetailleIndexGca from "./components/detailleProject/DetailleGca";
 import DetailleGu from "./components/detailleProject/DetailleGu";
+import DetailleSav from "./components/detailleProject/DetailleSav";
+import DetailleClient from "./components/detailleProject/DetailleClient";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
@@ -14,6 +16,8 @@ root.render(
       <Route path="/" element={<App />}>
         <Route path="detailleGca" element={<DetailleIndexGca />} />
         <Route path="detailleGu" element={<DetailleGu />} />
+        <Route path="detailleSav" element={<DetailleSav />} />
+        <Route path="detailleClient" element={<DetailleClient />} />
         <Route index element={<Pdc />} />
       </Route>
     </Routes>

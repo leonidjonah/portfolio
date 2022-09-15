@@ -9,7 +9,7 @@ function DetailleIndexGca() {
             <h2>Portfolio Details</h2>
             <ol>
               <li><a href="index.html">Projet</a></li>
-              <li>Gestion du gabinet medical (PSI)</li>
+              <li>Gestion du cabinet medical (PSI)</li>
             </ol>
           </div>
         </div>
