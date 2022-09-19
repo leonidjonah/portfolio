@@ -61,7 +61,15 @@ function Portfolio() {
               <div className="portfolio-wrap">
                 <img src="imageProjet/espaceClient.png" className="img-fluid" alt="" />
                 <div className="portfolio-links">
-                  <Link to="/detailleClient" title="Service apres vente"><i className="bx bx-plus"></i></Link>
+                  <Link to="/detailleClient" title="Gestion facturation"><i className="bx bx-plus"></i></Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 portfolio-item filter-app" hidden={visibilityMobile}>
+              <div className="portfolio-wrap">
+                <img src="imageProjet/mobileEspaceClient.png" className="img-fluid" alt="" />
+                <div className="portfolio-links">
+                  <Link to="/detailleClient" title="Gestion facturation"><i className="bx bx-plus"></i></Link>
                 </div>
               </div>
             </div>

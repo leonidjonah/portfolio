@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function DetailleSav() {
     return (
         <main id="main">
@@ -8,7 +9,6 @@ function DetailleSav() {
                     <div className="d-flex justify-content-between align-items-center">
                         <h2>Portfolio Details</h2>
                         <ol>
-                            <li><a href="index.html">Projet</a></li>
                             <li>Service apres vente du l'Entreprise Camson Group</li>
                         </ol>
                     </div>
@@ -31,7 +31,7 @@ function DetailleSav() {
                                 <li><strong>Outils</strong>: Symfony / ReactNative</li>
                                 <li><strong>Debut du projet</strong>: 02 Octobre, 2022</li>
                                 <li><strong>Durree du developpement</strong>: 1 mois</li>
-                                <li><strong>Description</strong>: Service apres vente, Message entre client et utilisateur</li>
+                                <li><strong>Description</strong>: Service apres vente, Message entre client et utilisateur (React Native)</li>
                             </ul>
                         </div>
                     </div>
