@@ -4,6 +4,9 @@ function Pdc() {
   return (
     <div>
       <section
+        style={{
+          backgroundColor: '#050d18'
+        }}
         id="hero"
         className="d-flex flex-column justify-content-center align-items-center"
       >
