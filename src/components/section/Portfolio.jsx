@@ -69,7 +69,7 @@ function Portfolio() {
               <div className="portfolio-wrap">
                 <img src="imageProjet/mobileEspaceClient.png" className="img-fluid" alt="" />
                 <div className="portfolio-links">
-                  <Link to="/detailleClient" title="Gestion facturation"><i className="bx bx-plus"></i></Link>
+                  <Link to="/mobileClient" title="Gestion facturation"><i className="bx bx-plus"></i></Link>
                 </div>
               </div>
             </div>

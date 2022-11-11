@@ -9,6 +9,7 @@ import DetailleIndexGca from "./components/detailleProject/DetailleGca";
 import DetailleGu from "./components/detailleProject/DetailleGu";
 import DetailleSav from "./components/detailleProject/DetailleSav";
 import DetailleClient from "./components/detailleProject/DetailleClient";
+import DetailleMobileClient from "./components/detailleProject/DetailleMobileClient";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <HashRouter>
@@ -18,6 +19,7 @@ root.render(
         <Route path="detailleGu" element={<DetailleGu />} />
         <Route path="detailleSav" element={<DetailleSav />} />
         <Route path="detailleClient" element={<DetailleClient />} />
+        <Route path="mobileClient" element={<DetailleMobileClient />} />
         <Route index element={<Pdc />} />
       </Route>
     </Routes>
