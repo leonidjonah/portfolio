@@ -77,7 +77,7 @@ function Portfolio() {
               <div className="portfolio-wrap">
                 <img src="imageProjet/inspc_gp.png" className="img-fluid" alt="" />
                 <div className="portfolio-links">
-                  <Link to="/inspc_gp" title="Gestion des personnels"><i className="bx bx-plus"></i></Link>
+                  <Link to="/inspcGp" title="Gestion des personnels"><i className="bx bx-plus"></i></Link>
                 </div>
               </div>
             </div>

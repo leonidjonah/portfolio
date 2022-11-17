@@ -21,7 +21,7 @@ root.render(
         <Route path="detailleSav" element={<DetailleSav />} />
         <Route path="detailleClient" element={<DetailleClient />} />
         <Route path="mobileClient" element={<DetailleMobileClient />} />
-        <Route path="inspc_gp" element={<DetailleInspcGp />} />
+        <Route path="inspcGp" element={<DetailleInspcGp />} />
         <Route index element={<Pdc />} />
       </Route>
     </Routes>
