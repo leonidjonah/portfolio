@@ -10,6 +10,7 @@ import DetailleGu from "./components/detailleProject/DetailleGu";
 import DetailleSav from "./components/detailleProject/DetailleSav";
 import DetailleClient from "./components/detailleProject/DetailleClient";
 import DetailleMobileClient from "./components/detailleProject/DetailleMobileClient";
+import DetailleInspcGp from "./components/detailleProject/DetailleInspcGp";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <HashRouter>
@@ -20,6 +21,7 @@ root.render(
         <Route path="detailleSav" element={<DetailleSav />} />
         <Route path="detailleClient" element={<DetailleClient />} />
         <Route path="mobileClient" element={<DetailleMobileClient />} />
+        <Route path="inspc_gp" element={<DetailleInspcGp />} />
         <Route index element={<Pdc />} />
       </Route>
     </Routes>
