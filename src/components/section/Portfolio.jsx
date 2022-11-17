@@ -73,6 +73,14 @@ function Portfolio() {
                 </div>
               </div>
             </div>
+            <div className="col-lg-4 col-md-6 portfolio-item filter-web" hidden={visibilityWeb}>
+              <div className="portfolio-wrap">
+                <img src="imageProjet/inspc_gp.png" className="img-fluid" alt="" />
+                <div className="portfolio-links">
+                  <Link to="/inspc_gp" title="Gestion des personnels"><i className="bx bx-plus"></i></Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
