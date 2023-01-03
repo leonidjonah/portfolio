@@ -26,26 +26,26 @@ function Skills() {
 
                 <div className="progress">
                   <span className="skill">
-                    CSS <i className="val">35%</i>
-                  </span>
-                  <div className="progress-bar-wrap">
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{width: '35%'}}
-                    ></div>
-                  </div>
-                </div>
-
-                <div className="progress">
-                  <span className="skill">
-                    JavaScript <i className="val">40%</i>
+                    CSS <i className="val">40%</i>
                   </span>
                   <div className="progress-bar-wrap">
                     <div
                       className="progress-bar"
                       role="progressbar"
                       style={{width: '40%'}}
+                    ></div>
+                  </div>
+                </div>
+
+                <div className="progress">
+                  <span className="skill">
+                    JavaScript <i className="val">60%</i>
+                  </span>
+                  <div className="progress-bar-wrap">
+                    <div
+                      className="progress-bar"
+                      role="progressbar"
+                      style={{width: '60%'}}
                     ></div>
                   </div>
                 </div>
@@ -67,13 +67,13 @@ function Skills() {
               <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                 <div className="progress">
                   <span className="skill">
-                    React <i className="val">40%</i>
+                    React et React Native <i className="val">50%</i>
                   </span>
                   <div className="progress-bar-wrap">
                     <div
                       className="progress-bar"
                       role="progressbar"
-                      style={{width: '40%'}}
+                      style={{width: '50%'}}
                     ></div>
                   </div>
                 </div>
@@ -106,13 +106,13 @@ function Skills() {
 
                 <div className="progress">
                   <span className="skill">
-                    Symfony <i className="val">60%</i>
+                    Symfony <i className="val">80%</i>
                   </span>
                   <div className="progress-bar-wrap">
                     <div
                       className="progress-bar"
                       role="progressbar"
-                      style={{width: '60%'}}
+                      style={{width: '80%'}}
                     ></div>
                   </div>
                 </div>

@@ -10,12 +10,16 @@ function FormaDiplo() {
         </div>
         <div className="row">
           <div data-aos="fade-up">
-            <h5 className="resume-title">Parcours actuelle</h5>
+            <h5 className="resume-title">2021 - En cours</h5>
             <div className="resume-item pb-0">
-              <h4>Modélisation et Ingénieure Informatique</h4>
-              <p><em>À l’École de Management et d’Innovation Technologique (EMIT) Université de Fianarantsoa Andrainjato.</em></p>
+              <h4>Modelisation et Ingenierie Informatique (MII) /Master II</h4>
+              <p><em>À l’Ecole de Management et d'Innovation Technologique (Emit) / Université d'Andrainjato.</em></p>
             </div>
-
+            <h5 className="resume-title">2019 - 2020</h5>
+            <div className="resume-item pb-0">
+              <h4>Modelisation et Ingenierie Informatique (MII) /Master I</h4>
+              <p><em>À l’Ecole de Management et d'Innovation Technologique (Emit) / Université d'Andrainjato.</em></p>
+            </div>
             <h5 className="resume-title">2018-2019</h5>
             <div className="resume-item">
               <h4>Obtention du diplome de licence</h4>

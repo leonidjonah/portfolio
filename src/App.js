@@ -15,17 +15,14 @@ function App() {
               className="img-fluid rounded-circle"
             />
             <h1 className="text-light">
-              <a href="index.html">Ranto.LFJ</a>
+              Ranto.LFJ
             </h1>
             <div className="social-links mt-3 text-center">
-              <div className="facebook">
-                <i className="bx bxl-facebook"></i>
-              </div>
-              <div className="google-plus">
-                <i className="bx bxl-skype"></i>
+              <div className="linkedin">
+                <a href="https://join.skype.com/invite/AYCnFMaZ67AS" target="_blank" rel="noopener noreferrer" ><i className="bx bxl-skype text-white"></i></a>
               </div>
               <div className="linkedin">
-                <i className="bx bxl-linkedin"></i>
+                <a href="https://www.linkedin.com/in/ranto-nirina-1b67a91b3/" target="_blank" rel="noopener noreferrer" ><i className="bx bxl-linkedin text-white"></i></a>
               </div>
             </div>
           </div>
