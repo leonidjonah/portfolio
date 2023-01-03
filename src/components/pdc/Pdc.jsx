@@ -14,7 +14,7 @@ function Pdc() {
           <h1>Rantonirina Leonid FJ</h1>
           <p>
             Develloper &nbsp;
-            <span className="underline">Web et Mobile junior</span>
+            <span className="underline">Web et Mobile senior</span>
           </p>
         </div>
       </section>
