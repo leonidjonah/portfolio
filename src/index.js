@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Pdc from "./components/pdc/Pdc";
 import DetailleIndexGca from "./components/detailleProject/DetailleGca";
 import DetailleGu from "./components/detailleProject/DetailleGu";
@@ -13,7 +13,7 @@ import DetailleMobileClient from "./components/detailleProject/DetailleMobileCli
 import DetailleInspcGp from "./components/detailleProject/DetailleInspcGp";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <HashRouter>
+  <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
         <Route path="detailleGca" element={<DetailleIndexGca />} />
@@ -25,7 +25,7 @@ root.render(
         <Route index element={<Pdc />} />
       </Route>
     </Routes>
-  </HashRouter>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
