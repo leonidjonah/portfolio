@@ -65,7 +65,7 @@ function Portfolio() {
                 <img src="imageProjet/loginDossierdgfag.png" style={{ height: '450px', width: '500px' }} className="img-fluid" alt="" />
                 <div className="centered">En Cours</div>
                 <div className="portfolio-links">
-                  <Link to="/#" title="Projet en cours"><i className="bx bx-plus"></i></Link>
+                  <Link to="/detailleDossierMobile" title="Projet en cours"><i className="bx bx-plus"></i></Link>
                 </div>
               </div>
             </div>
@@ -140,7 +140,7 @@ function Portfolio() {
                 <img src="imageProjet/dossierDGFAG.png" className="img-fluid" alt="" />
                 <div className="centered">En Cours</div>
                 <div className="portfolio-links">
-                  <Link to="/#" title="Projet en cours"><i className="bx bx-plus"></i></Link>
+                  <Link to="/detailleDossierMobile" title="Projet en cours"><i className="bx bx-plus"></i></Link>
                 </div>
               </div>
             </div>

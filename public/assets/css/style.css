@@ -1105,6 +1105,16 @@ section {
   transform: translate(-50%, -50%);
 }
 
+.centeredDetaille {
+  position: absolute;
+  color: black;
+  font-family: sans-serif;
+  font-size: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media (max-width: 1199px) {
   #footer {
     position: static;

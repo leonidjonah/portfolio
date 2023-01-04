@@ -1,19 +1,10 @@
 import React from 'react'
+import Header from './component/Header'
 
 function DetailleIndexGca() {
   return (
     <main id="main">
-      <section className="breadcrumbs">
-        <div className="container">
-          <div className="d-flex justify-content-between align-items-center">
-            <h2>Portfolio Details</h2>
-            <ol>
-              <li><a href="index.html">Projet</a></li>
-              <li>Gestion du cabinet medical (PSI)</li>
-            </ol>
-          </div>
-        </div>
-      </section>
+     <Header title="Gestion du cabinet medical (PSI)"/>
 
       <section id="portfolio-details" className="portfolio-details">
         <div className="container">
@@ -30,7 +21,7 @@ function DetailleIndexGca() {
                 <li><strong>Categorie</strong>: Application web</li>
                 <li><strong>Outils</strong>: Php (CodeIgniter)</li>
                 <li><strong>Debut du projet</strong>: 15 Juillet, 2021</li>
-                <li><strong>Durree du developpement</strong>: 6 mois</li>
+                <li><strong>Duree du developpement</strong>: 6 mois</li>
                 <li><strong>Description</strong>: Gestion du cabinet medical, gestion du stock, medicament, couverture, rendez-vous, comptabilite (Entree et sortie d'argent)</li>
               </ul>
             </div>

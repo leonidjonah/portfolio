@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Header from './component/Header'
 
-function MobileClient() {
+function DetailleDossierMobile() {
     const [visibilityMobile, setvisibilityMobile] = useState(false)
     const [visibilityWeb, setvisibilityWeb] = useState(true)
     function mobileShow() {
@@ -14,7 +14,7 @@ function MobileClient() {
     }
     return (
         <main id="main">
-            <Header title="Gestion du facturation du l'Entreprise Camson group"/>
+            <Header title="Gestion des courriers et dossiers a Madagascar au niveau du Direction Generale des Finances et des Affaires Generales" />
             <section id="portfolio-details" className="portfolio-details">
                 <div className="container">
                     <div className="row">
@@ -33,23 +33,20 @@ function MobileClient() {
                                     </div>
                                 </div>
                             </nav>
-                            <video width="100%" height="500" controls hidden={visibilityWeb}>
-                                <source src="video/client.mp4" type="video/mp4" className="img-fluid" />
-                            </video>
-                            <video width="100%" height="500" controls hidden={visibilityMobile}>
-                                <source src="video/mobileClient.mp4" type="video/mp4" className="img-fluid" />
-                            </video>
+                            <img src="assets/enCours.jpg" hidden={visibilityWeb} width="100%" height="500" className="img-fluid" alt="" />
+                            <div className="centeredDetaille">En Cours</div>
+                            <img src="assets/enCours.jpg" hidden={visibilityMobile} width="100%" height="500" className="img-fluid" alt="" />
                         </div>
 
                         <div className="col-md-4">
                             <h3>Information du projet</h3>
                             <ul>
-                                <li className='text-center'><strong>Collaboration avec l'equipe du Camson Group Madagascar</strong></li>
+                                <li className='text-center'><strong>Projet en entant que freelance solo</strong></li>
                                 <li><strong>Categorie</strong>: Application web / mobile</li>
-                                <li><strong>Outils</strong>: Symfony / React Native</li>
-                                <li><strong>Debut du projet</strong>: 15 Juillet, 2021</li>
-                                <li><strong>Duree du developpement</strong>: 6 mois</li>
-                                <li><strong>Description</strong>: Gestion du cabinet medical, gestion du stock, medicament, couverture, rendez-vous, comptabilite (Entree et sortie d'argent), message entre client et utilisateur (web et mobile), les clients peuvent etre telecharger sont facture via l'application mobile (React Native)</li>
+                                <li><strong>Technologie</strong>: Symfony / React Native</li>
+                                <li><strong>Debut du projet</strong>: 1 Octobre, 2022</li>
+                                <li><strong>Duree du developpement</strong>: 8 mois</li>
+                                <li><strong>Description</strong>: Gerer les courriers et les dossiers des usagiers, affiche la statistique sur une critique definie (Globales ou structure), detailles de l'etat d'une dossier (instance, duree du traitement, sns...)</li>
                             </ul>
                         </div>
                     </div>
@@ -59,4 +56,4 @@ function MobileClient() {
     )
 }
 
-export default MobileClient
+export default DetailleDossierMobile

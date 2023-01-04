@@ -1,20 +1,11 @@
 import React from 'react'
+import Header from './component/Header'
 
 
 function DetailleSav() {
     return (
         <main id="main">
-            <section className="breadcrumbs">
-                <div className="container">
-                    <div className="d-flex justify-content-between align-items-center">
-                        <h2>Portfolio Details</h2>
-                        <ol>
-                            <li>Service apres vente du l'Entreprise Camson Group</li>
-                        </ol>
-                    </div>
-                </div>
-            </section>
-
+            <Header title="Service apres vente du l'Entreprise Camson Group"/>
             <section id="portfolio-details" className="portfolio-details">
                 <div className="container">
                     <div className="row">

@@ -1,19 +1,11 @@
 import React from 'react'
+import Header from './component/Header'
 
 
 function DetailleInspcGp() {
     return (
         <main id="main">
-            <section className="breadcrumbs">
-                <div className="container">
-                    <div className="d-flex justify-content-between align-items-center">
-                        <h2>Portfolio Details</h2>
-                        <ol>
-                            <li>Gestion des personnels (INSPC - Befelantanana)</li>
-                        </ol>
-                    </div>
-                </div>
-            </section>
+           <Header title="Gestion des personnels (INSPC - Befelantanana)"/>
 
             <section id="portfolio-details" className="portfolio-details">
                 <div className="container">

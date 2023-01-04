@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Header from './component/Header'
 
 function DetailleIndexGca() {
     const [visibilityMobile, setvisibilityMobile] = useState(true)
@@ -13,17 +14,7 @@ function DetailleIndexGca() {
     }
     return (
         <main id="main">
-            <section className="breadcrumbs">
-                <div className="container">
-                    <div className="d-flex justify-content-between align-items-center">
-                        <h2>Portfolio Details</h2>
-                        <ol>
-                            <li><a href="index.html">Projet</a></li>
-                            <li>Gestion du facturation du l'Entreprise Camson group</li>
-                        </ol>
-                    </div>
-                </div>
-            </section>
+            <Header title="Gestion du facturation du l'Entreprise Camson group"/>
             <section id="portfolio-details" className="portfolio-details">
                 <div className="container">
                     <div className="row">
@@ -57,7 +48,7 @@ function DetailleIndexGca() {
                                 <li><strong>Categorie</strong>: Application web / mobile</li>
                                 <li><strong>Outils</strong>: Symfony / React Native</li>
                                 <li><strong>Debut du projet</strong>: 15 Juillet, 2021</li>
-                                <li><strong>Durree du developpement</strong>: 6 mois</li>
+                                <li><strong>Duree du developpement</strong>: 6 mois</li>
                                 <li><strong>Description</strong>: Gestion du cabinet medical, gestion du stock, medicament, couverture, rendez-vous, comptabilite (Entree et sortie d'argent), message entre client et utilisateur (web et mobile), les clients peuvent etre telecharger sont facture via l'application mobile (React Native)</li>
                             </ul>
                         </div>
