@@ -1,18 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Header from './component/Header'
 import InformationProject from './component/InformationProject'
 
 function DetailleCccomputer() {
-    const [visibilityMobile, setvisibilityMobile] = useState(false)
-    const [visibilityWeb, setvisibilityWeb] = useState(true)
-    function mobileShow() {
-        setvisibilityWeb(true)
-        setvisibilityMobile(false)
-    }
-    function webShow() {
-        setvisibilityWeb(false)
-        setvisibilityMobile(true)
-    }
+    
     return (
         <main id="main">
             <Header title="Cccomputer" />
@@ -25,10 +16,10 @@ function DetailleCccomputer() {
                                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                             <li className="nav-item">
-                                                <span className="nav-link text-white" style={{ cursor: "pointer" }} onClick={webShow} aria-current="page">Web</span>
+                                                <span className="nav-link text-white" style={{ cursor: "pointer" }} aria-current="page">Web</span>
                                             </li>
                                             <li className="nav-item">
-                                                <span className="nav-link text-white" style={{ cursor: "pointer" }} onClick={mobileShow}>Mobile</span>
+                                                <span className="nav-link text-white" style={{ cursor: "pointer" }} >Mobile</span>
                                             </li>
                                         </ul>
                                     </div>
