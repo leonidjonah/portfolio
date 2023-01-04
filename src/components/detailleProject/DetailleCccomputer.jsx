@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import Header from './component/Header'
+import InformationProject from './component/InformationProject'
 
-function DetailleDossierMobile() {
+function DetailleCccomputer() {
     const [visibilityMobile, setvisibilityMobile] = useState(false)
     const [visibilityWeb, setvisibilityWeb] = useState(true)
     function mobileShow() {
@@ -14,7 +15,7 @@ function DetailleDossierMobile() {
     }
     return (
         <main id="main">
-            <Header title="Gestion des courriers et dossiers a Madagascar au niveau du Direction Generale des Finances et des Affaires Generales" />
+            <Header title="Cccomputer" />
             <section id="portfolio-details" className="portfolio-details">
                 <div className="container">
                     <div className="row">
@@ -35,18 +36,13 @@ function DetailleDossierMobile() {
                             </nav>
                             <div className="centeredDetaille">En Cours ...</div>
                         </div>
-
-                        <div className="col-md-4">
-                            <h3>Information du projet</h3>
-                            <ul>
-                                <li className='text-center'><strong>Projet en entant que freelance solo</strong></li>
-                                <li><strong>Categorie</strong>: Application web / mobile</li>
-                                <li><strong>Technologie</strong>: Symfony / React Native</li>
-                                <li><strong>Debut du projet</strong>: 1 Octobre, 2022</li>
-                                <li><strong>Duree du developpement</strong>: 8 mois</li>
-                                <li><strong>Description</strong>: Gerer les courriers et les dossiers des usagiers, affiche la statistique sur une critique definie (Globales ou structure), detailles de l'etat d'une dossier (instance, duree du traitement, sns...)</li>
-                            </ul>
-                        </div>
+                        <InformationProject
+                            categorie="Application web / mobile"
+                            technologie="Symfony / React Native"
+                            debut="2 Janvier, 2023"
+                            duree="Indeterminer"
+                            description="Regard sur toutes les activites des magasins du Camson Group France"
+                        />
                     </div>
                 </div>
             </section>
@@ -54,4 +50,4 @@ function DetailleDossierMobile() {
     )
 }
 
-export default DetailleDossierMobile
+export default DetailleCccomputer
