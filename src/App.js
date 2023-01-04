@@ -24,6 +24,9 @@ function App() {
               <div className="linkedin">
                 <a href="https://www.linkedin.com/in/ranto-nirina-1b67a91b3/" target="_blank" rel="noopener noreferrer" ><i className="bx bxl-linkedin text-white"></i></a>
               </div>
+              <div className="linkedin">
+                <a href="https://github.com/leonidjonah" target="_blank" rel="noopener noreferrer" ><i className="bx bxl-github text-white"></i></a>
+              </div>
             </div>
           </div>
           <nav className="nav-menu">

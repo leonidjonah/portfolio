@@ -13,6 +13,7 @@ import DetailleMobileClient from "./components/detailleProject/DetailleMobileCli
 import DetailleInspcGp from "./components/detailleProject/DetailleInspcGp";
 import DetailleDossierMobile from "./components/detailleProject/DetailleDossierMobile";
 import DetailleCccomputer from "./components/detailleProject/DetailleCccomputer";
+import DetailleTracage from "./components/detailleProject/DetailleTracage";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
@@ -24,6 +25,7 @@ root.render(
         <Route path="detailleClient" element={<DetailleClient />} />
         <Route path="detailleDossierMobile" element={<DetailleDossierMobile />} />
         <Route path="detailleCccomputer" element={<DetailleCccomputer />} />
+        <Route path="detailleTracage" element={<DetailleTracage />} />
         <Route path="mobileClient" element={<DetailleMobileClient />} />
         <Route path="inspcGp" element={<DetailleInspcGp />} />
         <Route index element={<Pdc />} />

@@ -4,6 +4,7 @@ function InformationProject(props) {
     return (
         <div className="col-md-4">
             <h3>Information du projet</h3>
+                <strong className='text-center'></strong>
             <ul>
                 <li><strong>Categorie</strong>: {props.categorie}</li>
                 <li><strong>Technologie</strong>: {props.technologie}</li>
