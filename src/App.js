@@ -43,7 +43,7 @@ function App() {
               </li>
               <li>
                 <Link to="/#portfolio">
-                  <i className="bx bx-book-content"></i> Projet
+                  <i className="bx bx-book-content"></i> Projets
                 </Link>
               </li>
               <li>
