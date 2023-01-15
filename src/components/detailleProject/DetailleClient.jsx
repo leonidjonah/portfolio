@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Header from './component/Header'
+import InformationProject from './component/InformationProject'
 
 function DetailleIndexGca() {
     const [visibilityMobile, setvisibilityMobile] = useState(true)
@@ -14,7 +15,7 @@ function DetailleIndexGca() {
     }
     return (
         <main id="main">
-            <Header title="Gestion du facturation du l'Entreprise Camson group"/>
+            <Header title="Gestion du facturation du l'Entreprise Camson group" />
             <section id="portfolio-details" className="portfolio-details">
                 <div className="container">
                     <div className="row">
@@ -40,18 +41,14 @@ function DetailleIndexGca() {
                                 <source src="video/mobileClient.mp4" type="video/mp4" className="img-fluid" />
                             </video>
                         </div>
-
-                        <div className="col-md-4">
-                            <h3>Information du projet</h3>
-                            <ul>
-                                <li className='text-center'><strong>Collaboration avec l'equipe du Camson Group Madagascar</strong></li>
-                                <li><strong>Categorie</strong>: Application web / mobile</li>
-                                <li><strong>Outils</strong>: Symfony / React Native</li>
-                                <li><strong>Debut du projet</strong>: 15 Juillet, 2021</li>
-                                <li><strong>Duree du developpement</strong>: 6 mois</li>
-                                <li><strong>Description</strong>: Gestion du cabinet medical, gestion du stock, medicament, couverture, rendez-vous, comptabilite (Entree et sortie d'argent), message entre client et utilisateur (web et mobile), les clients peuvent etre telecharger sont facture via l'application mobile (React Native)</li>
-                            </ul>
-                        </div>
+                        <InformationProject
+                            type="Collaboration avec l'equipe du Camson Group Mada"
+                            categorie="Application web / mobile"
+                            technologie="Symfony / React Native"
+                            debut="Juillet, 2022"
+                            duree="6 Mois"
+                            description="Facturation, stock, message entre utilisateur et client a propos de la facteur"
+                        />
                     </div>
                 </div>
             </section>

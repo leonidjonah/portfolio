@@ -9,7 +9,6 @@ import DetailleIndexGca from "./components/detailleProject/DetailleGca";
 import DetailleGu from "./components/detailleProject/DetailleGu";
 import DetailleSav from "./components/detailleProject/DetailleSav";
 import DetailleClient from "./components/detailleProject/DetailleClient";
-import DetailleMobileClient from "./components/detailleProject/DetailleMobileClient";
 import DetailleInspcGp from "./components/detailleProject/DetailleInspcGp";
 import DetailleDossierMobile from "./components/detailleProject/DetailleDossierMobile";
 import DetailleCccomputer from "./components/detailleProject/DetailleCccomputer";
@@ -26,7 +25,6 @@ root.render(
         <Route path="detailleDossierMobile" element={<DetailleDossierMobile />} />
         <Route path="detailleCccomputer" element={<DetailleCccomputer />} />
         <Route path="detailleTracage" element={<DetailleTracage />} />
-        <Route path="mobileClient" element={<DetailleMobileClient />} />
         <Route path="inspcGp" element={<DetailleInspcGp />} />
         <Route index element={<Pdc />} />
       </Route>

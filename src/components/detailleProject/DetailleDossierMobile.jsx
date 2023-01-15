@@ -1,8 +1,9 @@
 import React from 'react'
 import Header from './component/Header'
+import InformationProject from './component/InformationProject'
 
 function DetailleDossierMobile() {
-    
+
     return (
         <main id="main">
             <Header title="Gestion des courriers et dossiers a Madagascar au niveau du Direction Generale des Finances et des Affaires Generales" />
@@ -24,20 +25,16 @@ function DetailleDossierMobile() {
                                     </div>
                                 </div>
                             </nav>
-                            <div className="centeredDetaille">En Cours ...</div>
+                            <div className="centeredDetaille">En Cours (95%)...</div>
                         </div>
-
-                        <div className="col-md-4">
-                            <h3>Information du projet</h3>
-                            <ul>
-                                <li className='text-center'><strong>Projet en entant que freelance solo</strong></li>
-                                <li><strong>Categorie</strong>: Application web / mobile</li>
-                                <li><strong>Technologie</strong>: Symfony / React Native</li>
-                                <li><strong>Debut du projet</strong>: 1 Octobre, 2022</li>
-                                <li><strong>Duree du developpement</strong>: 8 mois</li>
-                                <li><strong>Description</strong>: Gerer les courriers et les dossiers des usagiers, affiche la statistique sur une critique definie (Globales ou structure), detailles de l'etat d'une dossier (instance, duree du traitement, sns...)</li>
-                            </ul>
-                        </div>
+                        <InformationProject
+                            type="Solo / DGFAG"
+                            categorie="Application web / mobile"
+                            technologie="Symfony / React Native"
+                            debut="Octobre, 2022"
+                            duree="6 Mois"
+                            description=" Gerer les courriers et les dossiers des usagiers, affiche la statistique sur une critique definie (Globales ou structure), detailles de l'etat d'une dossier (instance, duree du traitement, sns...)"
+                        />
                     </div>
                 </div>
             </section>

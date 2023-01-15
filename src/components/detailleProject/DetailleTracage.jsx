@@ -24,11 +24,12 @@ function DetailleTracage() {
                             <div className="centeredDetaille">En Cours ...</div>
                         </div>
                         <InformationProject
+                            type="Projet personnel pour l'amelioration de mon competence et aussi passe temps"
                             categorie="mobile"
                             technologie="Symfony / React Native"
                             debut="Janvier, 2023"
                             duree="Indeterminer"
-                            description="Tracage et identification sur les terrains des personnes concernees et des autres fonctionnalites pas encore clair"
+                            description="Tracage et identification sur les terrains des personnes concernees et des autres fonctionnalites (calcul de la surface du polygone)"
                         />
                     </div>
                 </div>

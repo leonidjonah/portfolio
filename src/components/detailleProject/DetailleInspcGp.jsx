@@ -1,11 +1,12 @@
 import React from 'react'
 import Header from './component/Header'
+import InformationProject from './component/InformationProject'
 
 
 function DetailleInspcGp() {
     return (
         <main id="main">
-           <Header title="Gestion des personnels (INSPC - Befelantanana)"/>
+            <Header title="Gestion des personnels (INSPC - Befelantanana)" />
 
             <section id="portfolio-details" className="portfolio-details">
                 <div className="container">
@@ -15,17 +16,14 @@ function DetailleInspcGp() {
                                 <source src="video/Inspc_Gp.mp4" type="video/mp4" className="img-fluid" />
                             </video>
                         </div>
-
-                        <div className="col-md-4">
-                            <h3>Information du projet</h3>
-                            <ul>
-                                <li><strong>Categorie</strong>: Application web</li>
-                                <li><strong>Outils</strong>: Symfony</li>
-                                <li><strong>Debut du projet</strong>: Mars, 2020</li>
-                                <li><strong>Durree du developpement</strong>: 1 mois</li>
-                                <li><strong>Description</strong>: Liste des employees et etudiants et leurs information personnels, etat, echelon. Etat des soutenances des etudiants</li>
-                            </ul>
-                        </div>
+                        <InformationProject
+                            type="Equipe de 2 personnes / Ecole Prestige / Ankadikely - Antananarivo"
+                            categorie="Application web"
+                            technologie="Php (CodeIgniter)"
+                            debut="2019"
+                            duree="une semaine"
+                            description=" Liste des employees et etudiants et leurs information personnels, etat, echelon. Etat des soutenances des etudiants"
+                        />
                     </div>
                 </div>
             </section>

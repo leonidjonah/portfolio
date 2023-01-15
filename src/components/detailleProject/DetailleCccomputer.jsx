@@ -3,7 +3,7 @@ import Header from './component/Header'
 import InformationProject from './component/InformationProject'
 
 function DetailleCccomputer() {
-    
+
     return (
         <main id="main">
             <Header title="Cccomputer" />
@@ -28,9 +28,10 @@ function DetailleCccomputer() {
                             <div className="centeredDetaille">En Cours ...</div>
                         </div>
                         <InformationProject
+                            type="Solo / Camson Group"
                             categorie="Application web / mobile"
                             technologie="Symfony / React Native"
-                            debut="2 Janvier, 2023"
+                            debut="Janvier, 2023"
                             duree="Indeterminer"
                             description="Regard sur toutes les activites des magasins du Camson Group France"
                         />
