@@ -17,7 +17,7 @@ function FormaDiplo() {
             </div>
             <h5 className="resume-title">2019 - 2020</h5>
             <div className="resume-item pb-0">
-              <h4>Modelisation et Ingenierie Informatique (MII) /Master I</h4>
+              <h4>Modelisation et Ingenierie Informatique (MI) /Master I</h4>
               <p><em>À l’Ecole de Management et d'Innovation Technologique (Emit) / Université d'Andrainjato.</em></p>
             </div>
             <h5 className="resume-title">2018-2019</h5>

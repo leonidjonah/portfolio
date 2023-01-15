@@ -26,13 +26,13 @@ function Skills() {
 
                 <div className="progress">
                   <span className="skill">
-                    CSS <i className="val">40%</i>
+                    CSS <i className="val">50%</i>
                   </span>
                   <div className="progress-bar-wrap">
                     <div
                       className="progress-bar"
                       role="progressbar"
-                      style={{width: '40%'}}
+                      style={{width: '50%'}}
                     ></div>
                   </div>
                 </div>

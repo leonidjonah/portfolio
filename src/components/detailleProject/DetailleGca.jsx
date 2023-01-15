@@ -20,7 +20,7 @@ function DetailleIndexGca() {
               <ul>
                 <li><strong>Categorie</strong>: Application web</li>
                 <li><strong>Outils</strong>: Php (CodeIgniter)</li>
-                <li><strong>Debut du projet</strong>: 15 Juillet, 2021</li>
+                <li><strong>Debut du projet</strong>: Mai, 2020</li>
                 <li><strong>Duree du developpement</strong>: 6 mois</li>
                 <li><strong>Description</strong>: Gestion du cabinet medical, gestion du stock, medicament, couverture, rendez-vous, comptabilite (Entree et sortie d'argent)</li>
               </ul>

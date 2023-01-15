@@ -26,7 +26,7 @@ function DetailleTracage() {
                         <InformationProject
                             categorie="mobile"
                             technologie="Symfony / React Native"
-                            debut="2 Janvier, 2023"
+                            debut="Janvier, 2023"
                             duree="Indeterminer"
                             description="Tracage et identification sur les terrains des personnes concernees et des autres fonctionnalites pas encore clair"
                         />

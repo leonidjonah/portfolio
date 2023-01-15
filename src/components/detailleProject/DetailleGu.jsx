@@ -20,7 +20,7 @@ function DetailleGu() {
               <ul>
                 <li><strong>Categorie</strong>: Application web</li>
                 <li><strong>Outils</strong>: Php (CodeIgniter)</li>
-                <li><strong>Debut du projet</strong>: 30 Mars, 2020</li>
+                <li><strong>Debut du projet</strong>: Mars 2020</li>
                 <li><strong>Duree du developpement</strong>: 2 mois</li>
                 <li><strong>Description</strong>: Gestion des etudiants, dossiers du l'etudiant inclus les notes, s'il est passant ou redoublant, rendez-vous, payement salaire des professeurs</li>
               </ul>
