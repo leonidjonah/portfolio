@@ -13,8 +13,8 @@ function Pdc() {
         <div className="hero-container" data-aos="fade-in">
           <h1>Rantonirina Leonid FJ</h1>
           <p>
-            Develloper &nbsp;
-            <span className="underline">Web et Mobile senior</span>
+            Développeur &nbsp;
+            <span className="underline">Web et Mobile Fullstack (JS , PHP)</span>
           </p>
         </div>
       </section>
