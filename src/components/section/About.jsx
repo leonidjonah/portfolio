@@ -8,7 +8,7 @@ function About() {
             <div className="section-title">
               <h2>A-propos</h2>
               <p>
-                Ingénieur passionné des technologies, motivée sur la
+                Passionné des technologies, motivée sur la
                 programmation et création d'application, je souhaiterais relever
                 des défis et mettre mes compétences à disposition dans les
                 différents projets informatiques.
